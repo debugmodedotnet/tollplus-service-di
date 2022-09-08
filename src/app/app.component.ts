@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'didemo';
+   data: any; 
+  sort(){
+    this.data.sort();
+  }
 }
